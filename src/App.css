@@ -1,0 +1,41 @@
+h1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: white;
+  background-color: black;
+  width: 250px;
+   margin-left: 20px; 
+}
+.Form-container{
+  border: 1px;
+  border-style: solid;
+  display: flex;
+  width: 350px;
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+input{
+  margin-top: 5px;
+  padding: 5px;
+  margin-left: 20px;
+}
+button{
+  display: block;
+  margin-top: 5px;
+
+  margin-left: 14px;
+  padding: 5px;
+}
+.display-booklist{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f4f4;
+}
+.delete-btn{
+
+  background-color: rosybrown;
+}

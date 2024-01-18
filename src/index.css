@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(139, 1, 1)
+}
+.submit-container{
+  padding: 12px;
+  background-color: rgb(234, 137, 153);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.submit-container input{
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 15px;
+  font-size: 20px
+}
+.submit-container label{
+  font-size : 20px;
+  font-weight: bold;
+  padding: 4px;
+  margin-left: 10px;
+  column-gap: 15px;
+}
+.submit-container button{
+background-color: palevioletred;
+border-radius: 10px;
+margin-top: 44px;
+margin-left:600px;
+padding-left: 20px;
+padding-right: 20px;
+font-size: 20px;
+transition: padding ,0.5;
+}
+.submit-container button:hover{
+  padding: 34px;
+}
+.submit-container h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-weight: bolder;
+  font-size: 25px;
+  text-decoration: underline;
+
+}
+article{
+  display: inline-flex;
+  flex-direction: column;
+  width: 600px;
+  border-color: black;
+  border-style: solid;
+  border: 2px;
+  background-color: rgb(247, 129, 129);
+  margin-top: 100px;
+  margin-left: 400px;
+}
+article h2{
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+article h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+article button{
+  
+  padding: 5px;
+  width: 120px;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 400px
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
