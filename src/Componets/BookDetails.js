@@ -4,9 +4,14 @@ import useFetch from "./useFetch";
 const BookDetails = () => {
   const {id} = useParams();
   const navigate = useNavigate();
-  const{data:books,loadMessage,isError}=useFetch('http://localhost:8000/books/' +id)
+  const{data:books,loadMessage,isError}=useFetch('https://65ab5c34fcd1c9dcffc64c7e.mockapi.io/booklist/books/' +id)
+
 const handleDelete = ()=>{
-  fetch('http://localhost:8000/books/'+ books.id,{
+
+  // fetch('http://localhost:8000/books/'+ books.id,{
+
+  fetch('https://65ab5c34fcd1c9dcffc64c7e.mockapi.io/booklist/books/'+ books.id,{
+
     method:'DELETE'
     
   }).then(()=>{

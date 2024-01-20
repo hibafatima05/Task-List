@@ -4,12 +4,6 @@
       "title": " The Roman Empire",
       "desc": " The Roman Empire rise and fall",
       "author": " Martin luther",
-      "id": "1"
-    },
-    {
-      "title": " The Roman Empire",
-      "desc": " The Roman Empire rise and fall",
-      "author": " Martin luther",
       "id": "3"
     },
     {
@@ -37,12 +31,6 @@
       "author": "Hammaid"
     },
     {
-      "id": "f8df",
-      "title": "chikiki bannana",
-      "desc": "peanut bar",
-      "author": "Hammaid"
-    },
-    {
       "id": "a09c",
       "title": "chikiki bannana",
       "desc": "peanut bar",
@@ -55,58 +43,16 @@
       "author": "Hammaid"
     },
     {
-      "id": "43c7",
-      "title": "ndffdsh",
-      "desc": "dfgfdhfds",
-      "author": "dfgfd"
-    },
-    {
       "id": "a833",
       "title": "baba ",
       "desc": "KI YA HUA",
       "author": "NOTHING"
     },
     {
-      "id": "8806",
-      "title": "baba ",
-      "desc": "KI YA HUA",
-      "author": "NOTHING"
-    },
-    {
-      "id": "63b6",
-      "title": "baba ",
-      "desc": "KI YA HUA",
-      "author": "NOTHING"
-    },
-    {
-      "id": "8a48",
-      "title": "baba ",
-      "desc": "KI YA HUA",
-      "author": "NOTHING"
-    },
-    {
-      "id": "1084",
-      "title": "dfds",
-      "desc": "ss",
-      "author": "sdfdsf"
-    },
-    {
-      "id": "4915",
-      "title": "dfds",
-      "desc": "ss",
-      "author": "sdfdsf"
-    },
-    {
-      "id": "404f",
-      "title": "bablu ",
-      "desc": "kini",
-      "author": "soinfd"
-    },
-    {
-      "id": "2bd5",
-      "title": "bablu ",
-      "desc": "kini",
-      "author": "soinfd"
+      "id": "8753",
+      "title": "cic",
+      "desc": "color",
+      "author": "xyz"
     }
   ]
 }

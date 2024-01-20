@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {useState } from "react";
 
   import { useNavigate } from "react-router-dom";
 
@@ -8,11 +8,14 @@ const CreateInput = () => {
   const[author ,setAuthor] = useState("");
 const[isPending,setIsPending] = useState(false);
 const navigate = useNavigate()
+
 const SubmitHandler = (e)=>{
 e.preventDefault();
 const books ={title,desc,author}
 
-fetch("http://localhost:8000/books",{
+// fetch("http://localhost:8000/books",{
+// fetch("https://my.api.mockaroo.com/books?key=fd6e0830",{
+fetch ("https://65ab5c34fcd1c9dcffc64c7e.mockapi.io/booklist/books",{
   method: 'POST',
   headers:{"Content-Type": "application/json"},
   body:JSON.stringify(books)
