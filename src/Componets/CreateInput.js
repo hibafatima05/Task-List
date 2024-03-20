@@ -13,9 +13,7 @@ const SubmitHandler = (e)=>{
 e.preventDefault();
 const books ={title,desc,author}
 
-// fetch("http://localhost:8000/books",{
-// fetch("https://my.api.mockaroo.com/books?key=fd6e0830",{
-fetch ("https://65ab5c34fcd1c9dcffc64c7e.mockapi.io/booklist/books",{
+fetch ("https://65f6a84541d90c1c5e0b194c.mockapi.io/booklist",{
   method: 'POST',
   headers:{"Content-Type": "application/json"},
   body:JSON.stringify(books)
@@ -52,7 +50,6 @@ navigate('/');
     />
 
 {!isPending &&  <button className="bg-orange-500 p-3 ml-4">Add Book</button>}
-{/* { isPending && <button className="bg-orange-500 p-3 ml-4" disabled>Adding Book....</button>} */}
 { isPending && <h3 className="bg-orange-500 p-3 ml-4">Adding Book....</h3>}
 
 

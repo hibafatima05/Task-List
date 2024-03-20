@@ -1,0 +1,67 @@
+.headertab{
+background-color: green;
+}
+.headertitle{
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.book-container{
+background-color: lightgreen;  
+
+}
+.book-container h1{
+  background-color: yellow;
+  padding: 2rem;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center;
+}
+.book-details{
+border: 1px;
+border-style: solid;
+}
+.book-details h2{
+  font-size: larger;
+  padding: 1rem;
+  margin-top: 10px;
+  display: inline-flex;
+  margin-left: 14rem;
+  justify-content: center;
+  background-color: yellowgreen;
+}
+.book-details h4{
+  font-size: large;
+  font-weight: bold;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-left: 12rem;
+}
+.book-details h5{
+  padding: 1.3rem;
+  margin-left: 15rem;
+  margin-bottom: 15px;
+  background-color: rgb(135, 204, 135);
+  display: inline-block;
+}
+.book-description{
+  background-color: green;
+}
+.book-description article{
+  background-color: rgb(129, 214, 172);
+
+}
+.book-description button{
+  background-color: rgb(171, 251, 52);
+  color:white;
+}

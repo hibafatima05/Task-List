@@ -10,7 +10,7 @@ const App = () => {
   return (
     <Router>
       <NavBar />
-
+      
       <Routes>
          <Route exact path="/" element={<Home />} />
         <Route path="/create" element={<CreateInput/>} />

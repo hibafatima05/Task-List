@@ -25,6 +25,7 @@ input{
 button{
   display: block;
   margin-top: 5px;
+  background-color: green;
 
   margin-left: 14px;
   padding: 5px;
@@ -33,9 +34,5 @@ button{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #f4f4;
-}
-.delete-btn{
-
-  background-color: rosybrown;
+  background-color: rgba(143, 255, 68, 0.267);
 }

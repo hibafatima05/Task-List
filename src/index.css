@@ -5,11 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(139, 1, 1)
+  background-color: green
 }
 .submit-container{
   padding: 12px;
-  background-color: rgb(234, 137, 153);
+  background-color: rgb(137, 234, 181);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -28,7 +28,7 @@ body {
   column-gap: 15px;
 }
 .submit-container button{
-background-color: palevioletred;
+background-color: rgb(80, 224, 89);
 border-radius: 10px;
 margin-top: 44px;
 margin-left:600px;

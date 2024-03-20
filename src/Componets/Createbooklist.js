@@ -14,16 +14,7 @@ const Form = () => {
     console.log(booklist);
 
   }
-  // const deleteList = (i)=>{
-  // let copytask = [...booklist]
-  // copytask.splice(i,1)
-  // setBookList(copytask);
-  // }
-  // const deleteList = (id) => {
-  //   let copyTask = booklist.filter(book => book.id !== id);
-  //   setBookList(copyTask)
-
-  // }
+  
 
   let renderTask = "No bookList";
   if (booklist.length > 0) {
