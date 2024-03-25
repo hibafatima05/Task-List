@@ -6,7 +6,6 @@ const NavBar = () => {
     <>
     <h1>Task - Manager</h1>
     <section>
-      <h3>One Destination for Complete Web Development</h3>
       <nav>
         <ul className="menuItems">
           <li>

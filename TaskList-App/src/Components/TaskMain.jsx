@@ -42,12 +42,12 @@ const nav = useNavigate();
     <div className="main-div">
       <div className="child-div">
         <figure>
-          <figcaption>Add Your List Here &#x270C;</figcaption>
+          <figcaption>Generate your Tasks &#x270C;</figcaption>
         </figure>
         <div className="addItems">
           <input
             type="text"
-            placeholder="Add items &#x270D;"
+            placeholder="Create your Category &#x270D;"
             value={inputData}
             onChange={(e) => setInputData(e.target.value)}
           />

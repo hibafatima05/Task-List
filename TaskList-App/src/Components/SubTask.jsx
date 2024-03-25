@@ -1,5 +1,3 @@
-
-
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addTask } from "../Actions/actionindex";
@@ -26,6 +24,7 @@ const SubTask = ()=>{
 
   // Get the task name based on the taskId
   const task = tasks.find((task) => task.id === taskId);
+  console.log('id',taskId);
   const taskName = task ?task.data:"";
   console.log("TaskNAMe",taskName);
 
