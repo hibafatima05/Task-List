@@ -16,11 +16,12 @@ const App = () => {
    APPpage
    <NavBar/>
    <Routes>
-    <Route/>
-<TASKMAIN/>
-   <Home/>
-   <Contacts/>
-   <SubTask/>
+    <Route path="/app" element= {<TASKMAIN/>}/>
+    <Route path="/app/:taskID" element= {<SubTask/>}/>
+    <Route path="/home" element= {<Home/>}/>
+    <Route path="/contact" element= {<Contacts/>}/>
+
+   
 
    </Routes>
    

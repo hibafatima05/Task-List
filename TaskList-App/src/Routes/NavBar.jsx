@@ -18,7 +18,7 @@ const NavBar = () => {
           </Link>
           </li>
           <li>
-          <Link to='project'>Projects
+          <Link to='app'>APP
           </Link>
           </li>
           
